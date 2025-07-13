@@ -1,0 +1,4 @@
+x-values: 0.2, 0.22, 0.24, 0.26, 0.28, 0.3
+y-values: 1.6596, 1.6698, 1.6804, 1.6912, 1.7024, 1.7139
+f(0.21) using Forward Interpolation: 1.6646027
+f(0.29) using Backward Interpolation: 1.7081496
