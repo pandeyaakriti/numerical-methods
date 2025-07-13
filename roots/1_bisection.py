@@ -7,6 +7,7 @@
 # 4. If f(c) has the same sign as f(a), update a=c
 # 5. If f(c) has the same sign as f(b), update b=c
 # 6. Repeat steps 2-5 until the desired tolerance is achieved
+
 import math
 import matplotlib.pyplot as plt
 import numpy as np
@@ -64,7 +65,7 @@ def save_results(results, filename="results/bisection_output.txt"):
             f.write(line)
     print(f"\n Results saved to {filename}")
 
-# Optional: plot f(x) and convergence points
+# plot f(x) and convergence points
 def plot_graph(results):
     x_vals = np.linspace(0.4, 1.1, 400)
     y_vals = [f(x) for x in x_vals]
